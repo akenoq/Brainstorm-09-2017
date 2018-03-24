@@ -9,3 +9,10 @@
 * Dev front-end сервер: https://bubblerise-front.herokuapp.com
 * Back-end сервер: https://bubblerise-backend.herokuapp.com
 * Swagger: https://app.swaggerhub.com/apis/Brainstorm/BubbleRise/1.0.0
+
+# Для запуска
+
+```
+sudo docker build -t java_host .
+sudo docker run -p 8080:<server_port> -ti 4589277f5255
+```
